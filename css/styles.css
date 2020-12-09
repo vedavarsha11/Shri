@@ -1,23 +1,15 @@
-/* width */
 body{
   overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   width: 10px;
-
 }
-
-/* Track */
 body::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-
-/* Handle */
 body::-webkit-scrollbar-thumb {
   background: #ffc033;
 }
-
-/* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
@@ -32,19 +24,15 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #header{
 background-imgage:url('company.jpeg');
-
 }
-
 #products{
   background-color: #222222;
   text-align: center;
-
 }
 
 #materials{
   background-color: #222222;
   text-align: center;
-
 }
 #testimonials{
   background-color: #222222;
@@ -56,11 +44,9 @@ background-imgage:url('company.jpeg');
 font-family: 'Montserrat', sans-serif;
   color:#ffc033;
 }
-
 #header h2{
   font-family: 'Montserrat', sans-serif;
   color:#ffc033;
-
 }
 #why-us{
   background-color: #3f3f3f;
@@ -108,6 +94,7 @@ font-family: 'Montserrat', sans-serif;
   color:#ffffff;
   padding-top: 1% ;
   padding-bottom: 10%;
+  font-size: 2rem;
 }
 #can-also{
   text-align: center;
@@ -136,21 +123,38 @@ font-family: 'Montserrat', sans-serif;
 .icon:hover{
   color:#ffffff;
 }
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #222222;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 50%;                       /******** <- Remove this line *********/
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
 .navbar-brand{
   font-family: "Oswald";
   font-size:300px;
   font-weight: bold;
-
 }
 .navbar-dark .navbar-toggler{
 color:  #ffc033;
 background-color: ffc033;
 }
 .navbar{
-margin-right: 200px;
-
+margin-right: 100px;
 }
-
 .text{
   padding-top: 100px;
 }
@@ -163,7 +167,6 @@ margin-right: 200px;
 }
 .nav-item:hover{
    background-color: #3f3f3f;
-
 }
 .quote1{
 margin-left: 20%;
@@ -196,7 +199,6 @@ img{
   color: #ffc033;
   font-family:  'Montserrat', sans-serif;
   font-size: 3rem;
-
 }
 #testimonials{
   padding: 7% 15%;
@@ -228,15 +230,12 @@ img{
   text-align: center;
 }
 .content{
-
-
   text-align: center;
   background-color: #222222;
 }
 .content-product{
   text-align: center;
   background-color: #222222;
-
 }
 .phn-icon{
   margin-right: 10%;
@@ -261,7 +260,6 @@ color: #222222;
   position: relative;
   padding: 7% 15%;
 }
-
 #contact h2{
   font-family: "Oswald";
   color:#ffc033;
@@ -295,8 +293,6 @@ p{
   margin-right: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-
-
 }
 .box-img{
   width:100%;
